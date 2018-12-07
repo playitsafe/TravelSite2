@@ -1,0 +1,21 @@
+.btn {
+    background-color: $mainBlue;
+    color: #fff;
+    /* to move the underline */
+    text-decoration: none;
+    
+      /* top/bottom left/right */
+    padding: .75rem 1.2rem;
+
+    /* its surrounding elements aware its vertical padding */
+    display: inline-block;
+
+    &--orange {
+        background-color: $mainOrange;
+    }
+
+    &--large {
+        font-size: 1.25rem;
+        padding: 1.1rem 1.9rem;
+    }
+}
