@@ -1,0 +1,17 @@
+.generic-content-container {
+    /* select all <p> inside */
+    p {
+        line-height: 1.65;
+        /* font-size: 1.125rem; */
+        /* margin between <p> */
+        margin: 1.8rem 0;
+
+        @minxin atSmall {
+            font-size: 1.125rem;
+        }
+    }
+
+    p a {
+        font-weight: 700;
+    }
+}
