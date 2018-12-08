@@ -1,0 +1,18 @@
+.wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1200px;
+    /* set it horizontally center */
+    margin-left: auto;
+    margin-right: auto;
+
+    &--medium {
+        max-width: 976px;
+    }
+
+    .wrapper {
+        /* offset the wrapper inside wrapper */
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
